@@ -1,0 +1,394 @@
+/* CSS Document */
+
+body {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#A09B75;
+	margin:0px;
+	padding:0px;
+	background-color: #000000;
+	background-image: url(../images/back-img.gif);
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+
+#container {
+	width:780px;
+	background:url(../images/containerbg.jpg) left top repeat-y;
+	margin:0px auto;
+	text-align:justify;
+}
+
+.container-left {
+	width:238px;
+	float:left;
+	color:#C3BB96;
+	background:#5B2314 url(../images/leftbg.jpg) left top no-repeat;
+	padding:0px 24px 25px 25px;
+}
+
+.container-right {
+	width:451px;
+	float:left;
+	background:#4A4837;
+	padding:0px 21px 0px 21px;
+}
+
+.logozone {
+	padding:0px 0px 25px 0px;
+}
+
+.banner {
+	background:url(../images/banner.jpg) left top no-repeat;
+	height:370px;
+}
+.banner1 {
+	background:url(../images/banner.jpg) left top no-repeat;
+	height:370px;
+}
+
+.welcomezone {
+	padding:0px 26px 0px 26px;
+}
+
+.knowmore {
+	padding:24px 0px 0px 0px;
+}
+
+.contactus-block {
+	background:url(../images/contactusbg.jpg) left top no-repeat;
+	padding:13px 27px 19px 30px;
+}
+
+.servicebox {
+	background:url(../images/serviceboxbottom.jpg) left top repeat-y;
+	margin:34px 0px 34px 0px;
+}
+
+.servicebox-top {
+	background:url(../images/serviceboxtop.jpg) left top no-repeat;
+	padding:25px 20px 15px 20px;
+}
+
+.serviceleft {
+	width:170px;
+	float:left;
+}
+
+.runningproject {
+	width:200px;
+	float:right;
+	background:url(../images/servicedevider.jpg) left top repeat-y;
+	padding:0px 0px 0px 20px;
+	margin:0px 0px 0px 10px;
+}
+
+.projectimg {
+	float:left;
+	border:1px solid #898568;
+	margin:0px 10px 10px 0px;
+}
+
+.footer {
+	text-align:center;
+	padding:24px 0px 10px 0px;
+	background-image: url(../images/footer.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.clear {
+	clear:both;
+	padding:0px;
+	margin:0px;
+}
+
+
+/*	Text Styles Start Here */
+
+h1 {
+	font:30px Georgia, Arial, Helvetica, sans-serif;
+	color:#c4bc97;
+	background:url(../images/mainheadingbg.jpg) left top no-repeat;
+	height:69px;
+	text-align:right;
+	padding:0px 20px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+h2 {
+	font:20px Georgia, Arial, Helvetica, sans-serif;
+	color:#C4BC97;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 25px 0px;
+}
+
+h3 {
+	font:20px Georgia, Arial, Helvetica, sans-serif;
+	color:#4C2B31;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 25px 0px;
+}
+
+h4 {
+	font:14px Georgia, Arial, Helvetica, sans-serif;
+	color:#BFBA93;
+	font-weight:bold;
+	margin:0px 0px 20px 0px;
+	padding:0px;
+}
+
+.newsheading {
+	font:20px Georgia, Arial, Helvetica, sans-serif;
+	color:#C4BC97;
+	background:url(../images/news-bullet.jpg) 0px 5px no-repeat;
+	padding:0px 0px 0px 26px;
+	margin:0px 0px 25px 0px;	
+}
+
+.newssubheading {
+	background:url(../images/headingbg.jpg) 0px 0px no-repeat;
+	color:#E5DDB6;
+	padding:2px 0px 6px 30px;
+}
+
+.newscontent {
+	padding:13px 0px 18px 30px;
+}
+
+.contactheading {
+	font:20px Georgia, Arial, Helvetica, sans-serif;
+	color:#C4BC97;
+	background:url(../images/contact-bullet.jpg) 0px 5px no-repeat;
+	padding:0px 0px 0px 26px;
+	margin:0px 0px 25px 0px;	
+}
+
+/*	Text Styles End Here */
+
+
+/* Link Styles Start Here */
+
+a {
+	color:#c4bc97;
+	text-decoration:underline;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.mainmenu {
+	padding:0px 0px 50px 0px;
+}
+
+.mainmenu ul {
+	margin:0px;
+	padding:0px;
+}
+
+.mainmenu li {
+	display:block;
+	list-style:none;
+	background:url(../images/menubg.jpg) left bottom repeat-x;
+	padding:12px 0px 5px 17px;
+}
+
+.mainmenu li a{
+	font:bold 15px Georgia, Arial, Helvetica, sans-serif;
+	color:#B39A82;
+	text-decoration:none;
+	padding:0px 0px 0px 10px;
+}
+
+.mainmenu li a:hover {
+	text-decoration:none;
+	background:url(../images/disc2.jpg) 0px 9px no-repeat;
+}
+
+.servicelink {
+}
+
+.servicelink ul {
+	margin:0px;
+	padding:0px;
+}
+
+.servicelink li {
+	display:block;
+	background:url(../images/disc.gif) 0px 7px no-repeat;
+	padding:2px 0px 2px 15px;
+	list-style:none;
+}
+
+.servicelink li a{
+	color:#5B2314;
+	text-decoration:underline;
+}
+
+.servicelink li a:hover {
+	text-decoration:none;
+}
+
+.whyzone {
+	padding:10px 0px 30px 0px;
+}
+
+.whyzone ul {
+	margin:0px;
+	padding:0px;
+}
+
+.whyzone li {
+	display:block;
+	list-style:none;
+	padding:6px 0px 6px 0px;
+}
+
+.whyzone li a{
+	color:#B3AF96;
+	text-decoration:underline;
+}
+
+.whyzone li a:hover {
+	text-decoration:none;
+}
+
+.whybullet {
+	float:left;
+	margin-right:10px;
+}
+
+.bottommenu {
+}
+
+.bottommenu ul {
+	margin:0px;
+	padding:0px;
+}
+
+.bottommenu li {
+	display:inline;
+	border-right:1px solid #B4AA7F;
+	padding:0px 9px 0px 9px;
+}
+
+.bottommenu li a {
+	font:bold 12px Georgia, Arial, Helvetica, sans-serif;
+	color:#B4AA7F;
+	text-decoration:none;
+}
+
+.bottommenu li a:hover {
+	color:#B39A82;
+	text-decoration:none;
+}
+
+.readmore {
+	padding:0px 0px 0px 0px;
+	text-align:right;
+}
+
+/* Link Styles End Here */
+
+
+
+/* Inside Style Start Here	*/
+
+h5 {
+	font:bold 16px Georgia, Arial, Helvetica, sans-serif;
+	color:#c4bc97;
+	padding:0px 0px 5px 0px;
+	border-bottom:1px dotted #c4bc97;
+	margin:0px 0px 10px 0px;
+}
+
+/*
+h5 {
+	font:bold 13px Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	padding:0px 0px 5px 0px;
+	margin:0px;
+}*/
+
+.ourvalue {
+	margin:10px 0px 0px 0px;
+}
+
+.aboutus-img {
+	float:right;
+	border:4px solid #b0a48b;
+	margin:0px 0px 10px 20px;
+}
+
+.aboutcolumnzone {
+	padding:20px 0px 16px 0px;
+}
+
+.aboutcolumn1 {
+	width:48%;
+	float:left;
+	margin:0px 0px 10px 0px;
+}
+
+.aboutcolumn2 {
+	width:48%;
+	float:right;
+	margin:0px 0px 10px 0px;
+}
+
+.abouticon {
+	float:left;
+	margin:0px 20px 0px 0px;
+}
+
+.servicecolumnzone {
+	padding:20px 0px 16px 0px;
+}
+
+.servicecolumn1 {
+	width:48%;
+	float:left;
+	margin:0px 0px 10px 0px;
+}
+
+.servicecolumn2 {
+	width:48%;
+	float:right;
+	margin:0px 0px 10px 0px;
+}
+
+.our-comment {
+	margin:10px 0px 0px 0px;
+}
+
+.blog-posted-row {
+	padding:3px;
+}
+
+.ourprojectrow {
+	margin-bottom:20px; 
+	border-bottom:1px dotted #000000; 
+	padding-bottom:10px;
+}
+
+.project-img {
+	float:right;
+	margin-left:20px;
+	border: 6px solid #b0a48b;
+}
+
+input.button {
+	color:#ffffff;
+	background:#5b2314;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding:10px 10px;
+	margin:0px 5px 5px 0;
+	border:1px solid #000000;
+}
+input.button:hover {
+	cursor:pointer;
+	color:#cccccc;
+}
+
+/* Inside Style End Here	*/
